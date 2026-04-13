@@ -174,7 +174,7 @@ namespace buff_tracker {
         void extract_mask(const cv::Mat& h,   const cv::Mat& s,   const cv::Mat& v,
             cv::Mat& dst_arrow, cv::Mat& dst_armor,
             int h_low_a, int h_high_a, int s_low_a, int s_high_a, int v_low_a, int v_high_a,
-            int h_low_m, int h_high_m, int s_low_m, int s_high_m, int v_low_m, int v_high_m)
+            int h_low_m, int h_high_m, int s_low_m, int s_high_m, int v_low_m, int v_high_m);
 
         bool findArmor(Armor &armor, const std::vector<TargetShape> &TargetShapes);
 
